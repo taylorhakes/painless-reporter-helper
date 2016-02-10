@@ -8,13 +8,12 @@ function reporterHelper(eventObj) {
     stream.on('data', function onData(info) {
       if (eventObj[info.type]) {
         result = eventObj[info.type](info.data);
+        output.queue(result);
       }
-
-      output.queue(result);
     });
 
     return output;
   }
 }
 
-module.exprts = reporterHelper;
+module.exports = reporterHelper;
