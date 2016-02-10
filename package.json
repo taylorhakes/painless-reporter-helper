@@ -1,0 +1,26 @@
+{
+  "name": "painless-reporter-helper",
+  "version": "1.0.0",
+  "description": "Helper for creating painless reporters",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taylorhakes/painless-reporter-helper.git"
+  },
+  "keywords": [
+    "test",
+    "reporter",
+    "helper",
+    "painless",
+    "stream"
+  ],
+  "author": "Taylor Hakes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/taylorhakes/painless-reporter-helper/issues"
+  },
+  "homepage": "https://github.com/taylorhakes/painless-reporter-helper#readme"
+}
